@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+Bhaijaan+2&family=Baloo+Tamma+2&family=Chivo+Mono:ital,wght@0,400;1,300&family=DM+Serif+Display:ital@0;1&family=Kanit&family=Lobster&family=Ms+Madi&family=Noto+Sans:ital,wght@0,400;0,500;1,400&family=Oleo+Script+Swash+Caps:wght@700&family=Pacifico&family=Permanent+Marker&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Secular+One&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'Baloo Bhaijaan 2', cursive;
+font-family: 'Baloo Tamma 2', cursive;
+font-family: 'Chivo Mono', monospace;
+font-family: 'DM Serif Display', serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Ms Madi', cursive;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Oleo Script Swash Caps', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Secular One', sans-serif; */

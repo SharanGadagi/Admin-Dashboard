@@ -1,0 +1,51 @@
+.widget{
+       display: flex;
+       flex: 1;
+       padding: 10px;
+       justify-content: space-between;
+       box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+       -webkit-box-shadow:2px 4px 10px 1px rgba(0, 0, 0, 0.47) ;
+       border-radius: 10px;
+       height: 100px;
+}
+.widget .wLeft, .wRight{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.wLeft .title{
+font-weight: bold;
+font-size: 14px;
+color: rgb(151, 148, 148);
+}
+.wLeft .counter{
+font-size: 28px;
+font-weight: 300;
+} 
+.wLeft .link{
+font-size: 12px;
+width: max-content;
+border-bottom: 1px solid gray;
+cursor: pointer;
+color: blue;
+} 
+
+.wRight .percentage{
+display: flex;
+align-items: center;
+font-size: 14px;
+}
+.percentage.positive{
+    color: green;
+}
+.percentage.negative{
+    color: red;
+}
+.wRight .icon{
+font-size: 18px;
+padding: 5px;
+/* background-color: rgb(191, 134, 187); */
+border-radius: 5px;
+align-self: flex-end;
+font-size: 35px;
+}

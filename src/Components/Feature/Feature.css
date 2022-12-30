@@ -1,0 +1,72 @@
+.feature{
+    flex: 2;
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+       -webkit-box-shadow:2px 4px 10px 1px rgba(0, 0, 0, 0.47) ;
+       padding: 10px;
+} 
+.feature .top{
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: gray;
+}
+.top .title{
+font-size: 16px;
+font-weight: 600;
+}
+.feature .bottom{
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+padding: 20px;
+gap: 15px;
+}
+.bottom .featureChart{
+width: 100px;
+height: 100px;
+}
+.bottom .title{
+font-weight: 600;
+color: gray;
+}
+.bottom .amount{
+font-size: 30px;
+font-weight: 600;
+}
+.bottom .desc{
+font-size: 12px;
+font-weight: 400;
+color: gray;
+text-align: center;
+}
+.bottom .summary{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+}
+.summary .item{
+text-align: center;
+}
+.item .itemTitle{
+color: gray;
+font-size: 14px;
+}
+.item .itemResult{
+display: flex;
+align-items: center;
+margin-top: 10px;
+font-size: 15px;
+font-weight: bold;
+
+}
+.item .resultsAmount{
+    letter-spacing: 1px;
+}
+.itemResult.positive{
+    color: green;
+}
+.itemResult.negative{
+    color: red;
+}
